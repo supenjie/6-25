@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    height: 935px;
+    background: url('https://lmg.jj20.com/up/allimg/4k/s/02/2109250006343S5-0-lp.jpg')  0 0 /100% 100%;
+}
+.box{
+    width: 1300px;
+    height: 600px;
+    background-color: rgb(12, 11, 48);
+    margin:100px auto;
+    /* display: none; */
+    position: relative;
+}
+button{
+    width: 100px;
+    height: 40px;
+    background-color: brown;
+    color: white;
+    border-radius: 5px;
+    margin: 20px;
+}
+ ul:nth-child(2){
+    height: 100%;
+    width: 150px;
+    background-color: brown;
+}
+ul:nth-child(2) li{
+    height: 60px;
+    width: 150px;
+    /* background-color: rgb(35, 211, 19); */
+    line-height: 60px;
+    text-align: center;
+}
+.box ul:nth-child(2) li:hover{
+    background-color: rgb(68, 116, 213);
+}
+.subnav1,.subnav2,.subnav3,.subnav4{
+    width: 1110px;
+    height: 560px;
+    background-color: rgb(68, 116, 213);
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+    padding: 20px;
+}
+.box span{
+    float: right;
+    margin: 10px;
+    background-color: brown;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    color: white;
+}
+
+img{
+    width: 170px;
+    height: 120px;
+    /* margin: 10px 14px; */
+}
+#mydiv {
+    float: left;
+    width: 170px;
+    height: 120px;
+     margin: 10px 20px;
+     position: relative
+}
+#mydiv p{
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    color: aliceblue;
+    display: none;
+    cursor: pointer;
+}
+#mydiv:hover p{
+    display: block;
+}
+h1{
+    line-height: 560px;
+}
+.footer{
+    width: 500px;
+    height: 100px;
+    background-color: rgba(58, 230, 78, 0.3);
+    margin: auto;
+    position: absolute;
+    bottom: -150px;
+    left: 35%;
+    border-radius: 20px;
+}
